@@ -2573,6 +2573,10 @@ input, select, textarea {
 			display: block;
 		}
 
+		/* .image img.animated-gif {
+			width: 100px;
+		} */
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -3009,12 +3013,19 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 50em;
+			/* object-fit: cover; */
 		}
 
 			.spotlights > section > .image img {
-				border-radius: 0;
-				display: block;
+				/* border-radius: 0;
+				display: block; */
+				/* object-fit: cover; */
+			}
+
+			.empirebnbgif {
+				width: 1000px;
+				object-fit: cover;
 			}
 
 			.spotlights > section > .image:before {
